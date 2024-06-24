@@ -85,6 +85,7 @@
 		D023D65A2C248875005F0A95 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D06469742C2979D40092ECBA /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		D06469762C297CC60092ECBA /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		D06469782C2982020092ECBA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D0EEFEFE2C2491ED00D5809B /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		D0EEFF002C24A9BD00D5809B /* FavouriteDogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteDogViewController.swift; sourceTree = "<group>"; };
 		D0EEFF022C24AA7C00D5809B /* FavouriteVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteVM.swift; sourceTree = "<group>"; };
@@ -173,6 +174,7 @@
 				D023D6572C246F1A005F0A95 /* Main.storyboard */,
 				D023D6172C246E15005F0A95 /* LaunchScreen.storyboard */,
 				D023D61A2C246E15005F0A95 /* Info.plist */,
+				D06469782C2982020092ECBA /* README.md */,
 			);
 			path = DogBreadDemo;
 			sourceTree = "<group>";
