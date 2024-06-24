@@ -48,18 +48,18 @@ class FavouriteVM {
     }
     
     /// Retrieves a filtered list of dog breed names for use in filtering favorite dog breed images.
-    /// - Returns: An array of dog breed names, including "All" as the first item followed by sorted breed names.
+    /// - Returns: An array of dog breed names, including "Filter by breed" as the first item followed by sorted breed names.
     func getFilterList() -> [String] {
         let breedKeys = Array(favDogsBreedList.keys).sorted()
-        var filterArray = ["All"]
+        var filterArray = ["Filter by breed"]
         filterArray.append(contentsOf: breedKeys)
         return filterArray
     }
     
     /// Filters the list of favorite dog breed images based on a given dog breed name.
-    /// - Parameter title: The title (dog breed name) to filter by. If "All", retrieves all favorite dog breed images.
+    /// - Parameter title: The title (dog breed name) to filter by. If "Filter by breed", retrieves all favorite dog breed images.
     func filterDataOnDogBreed(title: String) {
-        if title == "All" {
+        if title == "Filter by breed" {
             favDogsImagesList = retriveAllFavDogs(favDogsBreedList: self.favDogsBreedList)
         } else {
             favDogsImagesList = retriveAllFavDogs(favDogsBreedList: filterBreedsContaining(breed: title, from: favDogsBreedList))

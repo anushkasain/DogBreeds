@@ -27,9 +27,6 @@ class DogBreedController: UIViewController {
         dataViewModel?.showError = {
             DispatchQueue.main.async { self.showAlert("Ups, something went wrong.") }
         }
-        dataViewModel?.showLoading = {
-//            DispatchQueue.main.async { self.activityIndicator.startAnimating() }
-        }
         dataViewModel?.hideLoading = {
             DispatchQueue.main.async { self.activityIndicator.stopAnimating() }
         }
@@ -59,6 +56,6 @@ extension DogBreedController: UICollectionViewDataSource, UICollectionViewDelega
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: collectionView.frame.width / 2-10, height: 150)
+        return CGSize(width: collectionView.frame.width / 3-10, height: 100)
     }
 }

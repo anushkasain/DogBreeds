@@ -10,7 +10,6 @@ import UIKit
 class DogBreedListVM {
     
     // MARK: - Properties
-    
     var reloadTableView: (() -> Void)?
     var showError: (() -> Void)?
     var showLoading: (() -> Void)?
@@ -20,7 +19,6 @@ class DogBreedListVM {
     private let networkManager = NetworkManager.shared
     
     // MARK: - Public Functions
-    
     /// Fetches the list of dog breeds from an API endpoint.
     func fetchDogsBreedListFromApi() {
         showLoading?()

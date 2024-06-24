@@ -20,7 +20,6 @@ class ViewController: UIViewController {
         initViewModel()
     }
     
-    
     func initViewModel(){
         dataViewModel.reloadTableView = {
             DispatchQueue.main.async { self.collectionView.reloadData() }

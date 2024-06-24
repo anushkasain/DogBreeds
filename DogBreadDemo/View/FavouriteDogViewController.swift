@@ -47,6 +47,7 @@ class FavouriteDogViewController: UIViewController {
                 self.collectionView.reloadData()
             }
         }
+        filterView.addBorder(corenrRadius: 10, borderWidth: 1, borderColor: UIColor.gray)
         favouriteVM.retriveAllDogsBreedFromUserDefault()
     }
     
@@ -107,8 +108,7 @@ extension FavouriteDogViewController: UICollectionViewDataSource, UICollectionVi
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let width = (collectionView.frame.size.width / 2) - 10
-        return CGSize(width: width, height: 150)
+        return CGSize(width: collectionView.frame.width / 3-10, height: 100)
     }
 }
 

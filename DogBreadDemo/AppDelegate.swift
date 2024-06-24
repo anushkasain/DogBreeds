@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //   
 //
-//  Created by Antonio Corrales on 26/6/18.
-//  Copyright © 2018 DesarrolloManzana. All rights reserved.
+//  Created by Anushka Sain on 20/06/24.
+//  Copyright © 2024 DesarrolloManzana. All rights reserved.
 //
 
 import UIKit

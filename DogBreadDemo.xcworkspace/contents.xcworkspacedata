@@ -2,12 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:DogBreadDemo/Utils/DataModel/DogBreedFavorite+CoreDataClass.swift">
-   </FileRef>
-   <FileRef
-      location = "group:DogBreadDemo/Utils/DataModel/DogBreedFavorite+CoreDataProperties.swift">
-   </FileRef>
-   <FileRef
       location = "group:DogBreadDemo.xcodeproj">
    </FileRef>
    <FileRef

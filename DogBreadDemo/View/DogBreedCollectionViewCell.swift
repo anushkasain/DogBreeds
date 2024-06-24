@@ -18,11 +18,7 @@ class DogBreedCollectionViewCell: UICollectionViewCell {
 
     
     override func draw(_ rect: CGRect) {
-        innerContentView.backgroundColor = UIColor.white
-        innerContentView.layer.cornerRadius = 10.0
-        innerContentView.layer.borderWidth = 1.0
-        innerContentView.layer.borderColor = UIColor.gray.cgColor
-        innerContentView.layer.masksToBounds = true
+        innerContentView.addBorder(corenrRadius: 10, borderWidth: 1, borderColor: UIColor.gray)
     }
     func prepareView(imgString: String, isSelect: Bool){
         dogBreadImgView.sd_setImage(with:  URL(string: imgString), placeholderImage: UIImage(named: "placeholder"))
