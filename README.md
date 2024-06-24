@@ -48,9 +48,11 @@ The application includes the following features:
  
 ## 3. Requirements
 
-##. iOS
-##. Xcode
-##. Swift
+ 1. iOS
+
+ 2. Xcode
+
+ 3. Swift
 
 
 ## 4. Installation
@@ -58,7 +60,7 @@ The application includes the following features:
 Follow these steps to set up and run the project:
 
 ```bash
-### 1. Clone the Repository
+ Clone the Repository
 https://github.com/anushkasain/DogBreeds.git
 ```
 
