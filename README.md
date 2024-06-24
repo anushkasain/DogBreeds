@@ -97,26 +97,26 @@ The app follows the MVVM (Model-View-ViewModel) architecture for a clean separat
 ### 3. ViewModel: Handles data fetching and business logic, providing the View with data.
 
 
-##6. Third-Party Libraries
+## 6. Third-Party Libraries
 This project leverages the following third-party libraries to enhance functionality and improve performance:
 
-###1. Alamofire
+### 1. Alamofire
 Alamofire is a popular Swift-based HTTP networking library. It simplifies network requests and provides an easy-to-use API for handling asynchronous data fetch operations.
 
-###2. SDWebImage
+### 2. SDWebImage
 SDWebImage is a library that provides an asynchronous image downloader with cache support. It allows efficient image loading and caching, which enhances the performance and user experience.
 
-##7. API Reference
+## 7. API Reference
 
 The application uses the Dog API to fetch data:
 
-###. Endpoint for Breeds List
+### . Endpoint for Breeds List
 
 ```http
 GET /breeds/list/all
 ```
 
-###. Endpoint for Breed Images
+### . Endpoint for Breed Images
 
 ```http
 GET /breed/{breed-name}/images
