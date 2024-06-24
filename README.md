@@ -30,17 +30,20 @@ The application includes the following features:
 ### Dog Breeds List
 
  i. View a list of available dog breeds.
+ 
  ii.Tap on a breed to navigate to its dedicated screen.
 
 
 ### Dog Breed Screen
 
  i. View multiple images of a selected dog breed.
+ 
  ii.Like or unlike images by tapping a button.
 
 ### Favorite Images Screen
 
  i. View liked images along with their corresponding dog breeds.
+ 
  ii.Filter favorite images by selecting a specific breed.
  
 ## 3. Requirements
@@ -81,7 +84,7 @@ Once the application is running, you can:
 
 ### 1. Explore Dog Breeds: Navigate through the list of dog breeds.
 ### 2. View Breed Details: Tap on a breed to see its images.
-### 2. Manage Favorites: Like or unlike images and view your favorite images in the favorites screen.
+### 3. Manage Favorites: Like or unlike images and view your favorite images in the favorites screen.
 
 ## 5. Architecture
 
